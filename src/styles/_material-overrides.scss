@@ -1,0 +1,7 @@
+@use '@angular/material' as mat;
+:root {
+  @include mat.radio-overrides((
+    checked-ripple-color: orange,
+    disabled-label-color: red,
+  ));
+}
